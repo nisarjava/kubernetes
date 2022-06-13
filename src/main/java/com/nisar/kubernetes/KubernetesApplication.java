@@ -9,5 +9,5 @@ public class KubernetesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KubernetesApplication.class, args);
 	}
-
+ 
 }
