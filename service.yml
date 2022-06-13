@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: deploy-service
+spec:
+  selector:
+    app: app-pod
+  ports:
+  - protocol: TCP
+    port: 8080
+  type: NodePort
